@@ -1,14 +1,8 @@
 ﻿using System;
 
-public class Shape
+public abstract class Shape
 {
-	public virtual float GetArea()
-    {
-		return 0;
-    }
+    public abstract float GetArea();
 
-    public virtual string GetName()
-    {
-        return "";
-    }
+    public abstract string GetName();
 }
