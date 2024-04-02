@@ -1,6 +1,6 @@
 ﻿using System;
 
-public abstract class Shape
+public abstract class Shape : IGetArea
 {
     public abstract float GetArea();
 

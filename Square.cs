@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Square : Shape
+public class Square : Shape 
 {
 	public float l;
 
